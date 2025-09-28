@@ -36,5 +36,9 @@ public class Plane {
 
     public void setHoursInAir(int hoursInAir) {
         this.hoursInAir = hoursInAir;
+    };
+
+    public void printInfo(){
+        System.out.printf("Name: %s, Release Date: %d, Hours In Air: %d, isMilitary: %s%n", name, releaseDate, hoursInAir, isMilitary?"Yes" : "No");
     }
 }
